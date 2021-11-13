@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_left">
+            <i class="material-icons">menu</i>
+            <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg">    
+        </div>
+        <div class="header_search">
+           <form action="">
+               <input type="text" placeholder="Search" />
+               <button><i class="material-icons">search</i></button>
+           </form>
+           <div><i class="material-icons mic">mic</i></div>
+        </div>
+        <div class="header_icons">
+            <i class="material-icons-outlined">video_call</i>
+            <i class="material-icons-outlined">apps</i>
+            <i class="material-icons-outlined">notifications</i>
+            <i class="material-icons-outlined">account_circle</i>
+        </div>
+    </div>
+
+    <div class="mainBody">
+        <div class="sidebar">
+            <div class="sidebar_categories">
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">explore</i>
+                    <span>Explore</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr />
+            <div class="sidebar_categories">
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">video_library</i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">history</i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">smart_display</i>
+                    <span>Your videos</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">watch_later</i>
+                    <span>Watch later</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons-outlined">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+            <hr />
+        </div>
+
+        <div class="videos">
+            <!-- <h1>Recommended</h1> -->
+            <div class="videos_container">
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/j4N4e_3kv2E/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCs4ekH6KNfapGEBKNSN9x6U_vBA">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/jYso55nmZ2ed7RV2JQyFBvSB8K8gFEMmXwRejFpzfmxz3xWEK4-sadOkgG0fyROw_Yu_1fbj-g=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>Kill Chori ft. Shraddha Kapoor and Bhuvan Bam | Song by Sachin Jigar</h3>
+                            <a href="">Free Fire India Official <i class="material-icons">check_circle</i></a>
+                            <span>58M views • 1 week ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/bqGtrvcR5ls/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBATRzs4ojxcxtl6aFs37pMnf4yMA">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/bqGtrvcR5ls/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBATRzs4ojxcxtl6aFs37pMnf4yMA">
+                        </div>
+
+                        <div class="title">
+                            <h3>Harrdy Sandhu - Backbone | Jaani | B Praak | Zenith Sidhu | Latest Romantic Song 2017</h3>
+                            <a href="">Sony Music India <i class="material-icons">check_circle</i></a>
+                            <span>517M views • 4 years ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/l9u8Zb4fY1c/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRvZdiAWN3ASKweNfnnGIF3flQlw">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/tizGJv6p6UKdu86hnKw-NwHDmjM8mFxtwG8XwAgjNtZDpTs9sy9mJa3VQmMYwAEY-AZmurnz=s48-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>Tip Tip Song: Sooryavanshi | Akshay Kumar, Katrina Kaif | Udit N, Alka Y, Tanishk</h3>
+                            <a href="">T-Series <i class="material-icons">check_circle</i></a>
+                            <span>10M views • 12 hours ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/Trdmf2pr_dw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQ4wZspoRfIn15oPdTOTxdPLje1A">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLQgOSA1VHw2sk1iyncECvCtekvLFZqOgfDKM5mjrQ=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>Tom & Jerry | All Play, No Work | Classic Cartoon Compilation | WB Kids</h3>
+                            <a href="">WB Kids <i class="material-icons">check_circle</i></a>
+                            <span>120M views • 1 years ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/-HlI0NZSXO0/hqdefault.jpg?sqp=-oaymwEbCNIBEHZIVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBNs6yNIQYH8TYTan0PyabuhbfVLA">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLSy84dhdkyusSET3OsDIA7Fdv5R4nOGijrtCilwGw=s48-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>UNFCCC | COP 26 | NSG | Rio Summit 1992 | Carbon Net Zero 2050 | Carbon Sink</h3>
+                            <a href="">Khan GS Research Centre <i class="material-icons">check_circle</i></a>
+                            <span>1.9M views • 1 day ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/ei7R345Cjo0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6-El680Duldxm8M1_D98I5jeWoQ">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLTRj3xhsWKCtKNFMHbdBcvvmRpbxj0gd1RtUZku=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>SPIDER-MAN: NO WAY HOME - Official Teaser Trailer (HD)| In Cinemas December 17 </h3>
+                            <a href="">
+                                Sony Pictures India <i class="material-icons">check_circle</i></a>
+                            <span>15M views • 2 month ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/_ghMnRe2K_s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANaRk6OKxaP6Qoh8JEx5kYL0z-Jw">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/EoZFuZjxXDRqCaFUNRIfx-k5qVpioUpQjPMbZsVGZIlDNB-fSoe7GR_P0CkiBhgElOxJjWH-VMA=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>Ben 10 Ultimate Alien | All Ultimatrix Aliens Transformation - 4k - HD</h3>
+                            <a href="">AmperiStreaks</a>
+                            <span>4.8M views • 7 months ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/xVH76Q11XBM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjCMaegwXvDWH6QGqQRCLL5cXixQ">
+                    </div>
+
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AKedOLT3EnMXtIOvDT4CL7obl0-acSZCBhMuapXBQFksVQ=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+
+                        <div class="title">
+                            <h3>Choose this out of Competitive Programming Vs Software Development in College!</h3>
+                            <a href="">CodeWithHarry <i class="material-icons">check_circle</i></a>
+                            <span>474K views • 3 months ago</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
